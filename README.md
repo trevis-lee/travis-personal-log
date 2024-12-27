@@ -1,7 +1,7 @@
 # Travis Personal Log
 #### Last updated : 27 Dec 2024
 
-## Technical achievements (Buzzvil)
+## Technical Achievements (Buzzvil)
 ### (1) Improved API Performance through Django ORM and Database Optimisation
 - **Problem (What issues we faced)**
   - Our **Multi-Reward Ad Product**(See "Sample Mission Page" shown below) is a service that handles missions for users, providing them with rewards based on actions or tasks completed. This service is critical to our platform's user engagement. One of the core APIs responsible for retrieving user missions faced a significant performance bottleneck, causing user pages to load slowly. To improve the user experience and meet performance targets, we focused on reducing API latency, which was found to be around **1 second(1000ms)**. Since this API is invoked whenever a user opens the mission page, ensuring that the page is loaded quickly is essential for user engagement. To address this, we set a performance target to reduce the latency by half, to **0.5 seconds(500ms)**.
